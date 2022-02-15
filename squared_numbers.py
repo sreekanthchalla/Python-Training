@@ -11,13 +11,14 @@ output: 0, 1
 1) You need to handle the exceptions
    To display helpful messages while exiting the programme
 
+
 """
 
 
 def square_numbers(num):
     for x in range(num):
         i = x * x
-        print(i)
+        print("Value of i: ", i)
 """
 var = "0"
 while var != "exit":
